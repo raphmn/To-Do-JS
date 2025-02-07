@@ -1,0 +1,55 @@
+html
+{
+    font-family: Roboto Condensed, sans-serif;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+div
+{
+    border: 0.5px solid green;
+}
+
+header
+{
+    background-color: #daca7f;
+    color: white;
+    padding: 2vw;
+    font-size: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list
+{
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vw;
+    gap: 2vh;
+}
+
+.element
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+#create_element_button
+{
+    border-radius: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 1.1vw;
+    background-color: #4a6625;
+    color: white;
+}
+
+.delete_button
+{
+    border : 0;
+    background-color: ghostwhite;
+    align-items: center;
+}
